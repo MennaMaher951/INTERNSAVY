@@ -1,0 +1,57 @@
+Graduate_Admission_2
+
+This project explores graduate admission prediction using machine learning techniques. It analyzes a dataset of historical admissions data to:
+
+Identify factors influencing admission chances
+Build a model to predict future admissions
+
+Dataset:
+
+The project utilizes the "Admission_Predict.csv" dataset. This dataset contains information about various applicants, including:
+
+GRE Score
+TOEFL Score
+University Rating
+Statement of Purpose (SOP) score
+Letter of Recommendation (LOR) score
+CGPA
+Research experience
+Admission decision (admitted or not admitted)
+
+Preprocessing:
+
+Data cleaning: Missing values are handled, and irrelevant columns are removed.
+Data transformation: Categorical variables are encoded, and numerical data is standardized.
+Feature engineering: No additional features were created in this project.
+
+Model Training:
+
+A Support Vector Machine (SVM) classifier is trained to predict admission based on the applicant's profile.
+The dataset is split into training and testing sets.
+The model is trained on the training set and evaluated on the testing set.
+
+Evaluation:
+
+The model achieves an accuracy of 93.75% on the training data and 96.25% on the testing data.
+This suggests that the model can effectively predict admission chances based on the available data.
+
+Predictive System:
+
+The project includes a script to make predictions for new applicants.
+Users can input an applicant's profile information, and the script will predict their admission chances.
+
+Disclaimer:
+
+This is a sample project and may not be representative of real-world graduate admission systems.
+Actual admission decisions are complex and consider various factors beyond the scope of this project.
+
+Further Work:
+
+Explore other machine learning algorithms and compare their performance.
+Incorporate additional features, such as work experience or specific program requirements.
+Develop a user-friendly interface for the predictive system.
+
+Technologies:
+
+Programming language: Python
+Libraries: Pandas, NumPy, Matplotlib, Seaborn, sklearn
