@@ -1,8 +1,8 @@
-## Cricket World Cup Data Analysis Project
+Cricket World Cup Data Analysis Project
 
 Internship: Intern Data Scientist, INTERNSAVY
 
-*Description:*
+Description:
 
 This project analyzes historical Cricket World Cup data to uncover insights and trends. It explores various aspects of the tournament, including:
 
@@ -10,6 +10,7 @@ Team performance and ranking over time
 Player statistics and impact on matches
 Match analysis and factors influencing outcomes
 Prediction of future results using data-driven methods
+
 Data:
 
 The project utilizes publicly available datasets from sources like ESPN Cricinfo and Kaggle. These datasets cover various aspects of the Cricket World Cup, including match details, player statistics, and team information.
@@ -30,15 +31,4 @@ Technologies:
 
 Programming languages: Python
 Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-Machine Learning frameworks: (if applicable, e.g., TensorFlow, PyTorch)
-Instructions:
 
-Download the project files.
-Install the required libraries (listed in requirements.txt).
-Run the Jupyter Notebook files in the order they are named.
-Results and visualizations will be generated automatically.
-Future Work:
-
-Extend the analysis to include more recent data and upcoming tournaments.
-Explore more advanced machine learning models for improved prediction accuracy.
-Incorporate sentiment analysis from social media data to understand fan engagement and team perception.
